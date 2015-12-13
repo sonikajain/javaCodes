@@ -1,0 +1,10 @@
+package shopping;
+
+public class PepperTap {
+
+	Items toothpaste = new Items("Toothpaste", 10, 21);
+	Items powder = new Items("Powder", 5, 10);
+	Items lotion = new Items("Lotion", 1, 100);
+	Items tomato = new Items("Tomato", 10, 5);
+	Items cream = new Items("Cream", 5, 10);
+}

@@ -1,0 +1,21 @@
+package shopping;
+
+import java.util.HashMap;
+
+public class ManageInventory {
+	static HashMap<String, Integer> requirements = new HashMap<>();
+	
+	
+	public static void main (String args[]){
+		requirements.put("Toothpaste", 10);
+		requirements.put("Soap", 4);
+		requirements.put("Brush", 20);
+		requirements.put("Powder", 5);
+		requirements.put("Potato", 20);
+		requirements.put("Tomato", 7);
+		requirements.put("Shampoo", 1);
+		requirements.put("Comb", 5);
+		
+		
+	}
+}

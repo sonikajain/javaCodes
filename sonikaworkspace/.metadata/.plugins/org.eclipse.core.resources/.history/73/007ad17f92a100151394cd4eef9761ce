@@ -1,0 +1,16 @@
+package shopping;
+
+public class Items {
+	
+	String name;
+	int quantity;
+	double cost;
+	
+	public Items(String name, int quantity, double cost){
+		this.name=name;
+		this.quantity=quantity;
+		this.cost=cost;
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package shopping;
+
+import java.util.HashMap;
+
+public class ManageInventory {
+	HashMap<K, V> requirements = new HashMap<>();
+	
+	public static void main (String args[]){
+		
+	}
+}

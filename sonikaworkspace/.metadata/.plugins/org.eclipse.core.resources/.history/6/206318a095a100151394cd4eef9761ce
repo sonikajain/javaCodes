@@ -1,0 +1,37 @@
+package shopping;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+
+import javax.swing.text.html.HTMLDocument.Iterator;
+
+public class ManageInventory {
+	static HashMap<String, Integer> requirements = new HashMap<>();
+	
+	public void calculateItems(HashMap<String, Integer> req){
+		Grofers grofers = new Grofers();
+		BigBasket bigBasket = new BigBasket();
+		PepperTap pepperTap = new PepperTap();
+		ZopNow zopNow = new ZopNow();
+		
+		Iterator itr;
+		ArrayList groferElements = grofers.itemAvail;
+		if(for (iterable_type iterable_element : collection) {
+
+	    } ){
+			
+		}
+		
+	}
+	
+	public static void main (String args[]){
+		requirements.put("Toothpaste", 10);
+		requirements.put("Soap", 4);
+		requirements.put("Brush", 20);
+		requirements.put("Powder", 5);
+		requirements.put("Potato", 20);
+		requirements.put("Tomato", 7);
+		requirements.put("Shampoo", 1);
+		requirements.put("Comb", 5);
+	}
+}

@@ -1,0 +1,11 @@
+package shopping;
+
+public class BigBasket {
+	
+	Items glycirene = new Items("Glycirene", 5, 50);
+	Items soap = new Items("Soap", 2, 12);
+	Items brush = new Items("Brush", 2, 35);
+	Items tomato = new Items("Tomato", 2, 7);
+	Items comb = new Items("comb", 2, 10);
+	
+}
